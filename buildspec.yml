@@ -1,0 +1,26 @@
+version: 0.2
+phases:
+  pre_build:
+    commands:
+      - echo "Entered in prebuild phase";
+  build:
+    commands:
+      - echo "Entered in build phase"
+  post_build:
+    commands:
+      - echo "Entered in post-build phase"
+artifacts:
+  files:
+    - album.php
+    - artist.php
+    - browse.php
+    - index.php
+    - playlist.php
+    - register.php
+    - search.php
+    - settings.php
+    - updateDetails.php
+    - yourMusic.php
+    - '**/*'
+    
+    
